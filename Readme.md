@@ -8,18 +8,18 @@ This project is about creating a sample infrastructure for an e-commerce use cas
 
 Products marked as reserved are not showing as available.
 
-2. As a user I want to be able to add a product from the list to my chart, so that I can buy them afterwards.
+2. As a user I want to be able to add a product from the list to my cart, so that I can buy them afterwards.
 
-3. As a product storage service I want to be informed when a product is added into a chart, so that I can update the product amount status to RESERVED.
+3. As a product storage service I want to be informed when a product is added into a cart, so that I can update the product amount status to RESERVED.
 
-4. As a user I want to be able to buy the products from a chart, so that I'm able to see them I'm my to be delivered list.
+4. As a user I want to be able to buy the products from a cart, so that I'm able to see them I'm my to be delivered list.
 
 Before proceeding to buy a product, check if the product is marked as reserved, and if not - reserve it first.
 Only if all products are marked as reserved, we should be able to process the buy. If this is not possible, inform the user about the error.
 
 5. As a product storage service I want to be informed when a product was added to the delivery list, so that I can update the product amount.
 
-6. As a delivery service I want to be informed when a product from a chart is buy, so that I can create a new entry with the products in the delivery list.
+6. As a delivery service I want to be informed when a product from a cart is buy, so that I can create a new entry with the products in the delivery list.
 
 7. As a user O want to get a my full delivery list, so that I can see my history.
 
@@ -36,5 +36,5 @@ Only if all products are marked as reserved, we should be able to process the bu
 ## Identified services
 
 1. storage-service
-2. chart-service
+2. cart-service
 3. delivery-service
